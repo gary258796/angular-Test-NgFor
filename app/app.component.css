@@ -1,0 +1,16 @@
+p {
+  font-family: Lato;
+}
+
+@keyframes MyAnimation {
+  0% {
+    padding-left: 100px;
+  }
+  100% {
+    padding-left: 0px;
+  } 
+}
+
+.my-animation {
+  animation: MyAnimation 1.5s;
+}
